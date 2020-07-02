@@ -10,10 +10,21 @@
 		CC643B4E24AD71E900336B53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC643B4D24AD71E900336B53 /* AppDelegate.swift */; };
 		CC643B5024AD71E900336B53 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC643B4F24AD71E900336B53 /* SceneDelegate.swift */; };
 		CC643B5324AD71E900336B53 /* MeditationTracker_2_0.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC643B5124AD71E900336B53 /* MeditationTracker_2_0.xcdatamodeld */; };
-		CC643B5524AD71E900336B53 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC643B5424AD71E900336B53 /* ContentView.swift */; };
+		CC643B5524AD71E900336B53 /* MeditationTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC643B5424AD71E900336B53 /* MeditationTimerView.swift */; };
 		CC643B5724AD71EB00336B53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC643B5624AD71EB00336B53 /* Assets.xcassets */; };
 		CC643B5A24AD71EB00336B53 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC643B5924AD71EB00336B53 /* Preview Assets.xcassets */; };
 		CC643B5D24AD71EB00336B53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC643B5B24AD71EB00336B53 /* LaunchScreen.storyboard */; };
+		CC643B6824AD734600336B53 /* LowBowlPadBeatMidVel4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC643B6424AD734600336B53 /* LowBowlPadBeatMidVel4.mp3 */; };
+		CC643B6924AD734600336B53 /* crystalWandOnSingingBowl.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC643B6524AD734600336B53 /* crystalWandOnSingingBowl.mp3 */; };
+		CC643B6A24AD734600336B53 /* Prayer Bowls3_Shriek_2011.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC643B6624AD734600336B53 /* Prayer Bowls3_Shriek_2011.mp3 */; };
+		CC643B6B24AD734600336B53 /* Prayer Bowls4_Shriek_2011.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC643B6724AD734600336B53 /* Prayer Bowls4_Shriek_2011.mp3 */; };
+		CC643B6F24AD738700336B53 /* images in Resources */ = {isa = PBXBuildFile; fileRef = CC643B6E24AD738700336B53 /* images */; };
+		CC643B7124AD73A800336B53 /* TimerSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC643B7024AD73A800336B53 /* TimerSound.swift */; };
+		CC643B7324AD73C900336B53 /* PlaySounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC643B7224AD73C900336B53 /* PlaySounds.swift */; };
+		CC643B7524AD747700336B53 /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC643B7424AD747700336B53 /* BarChartView.swift */; };
+		CC643B7724AD749100336B53 /* HistoryTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC643B7624AD749100336B53 /* HistoryTabView.swift */; };
+		CC643B7924AD74AE00336B53 /* TimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC643B7824AD74AE00336B53 /* TimerManager.swift */; };
+		CC643B7B24AD74C500336B53 /* FormatTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC643B7A24AD74C500336B53 /* FormatTimer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,11 +32,22 @@
 		CC643B4D24AD71E900336B53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC643B4F24AD71E900336B53 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CC643B5224AD71E900336B53 /* MeditationTracker_2_0.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MeditationTracker_2_0.xcdatamodel; sourceTree = "<group>"; };
-		CC643B5424AD71E900336B53 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CC643B5424AD71E900336B53 /* MeditationTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationTimerView.swift; sourceTree = "<group>"; };
 		CC643B5624AD71EB00336B53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC643B5924AD71EB00336B53 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CC643B5C24AD71EB00336B53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC643B5E24AD71EB00336B53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC643B6424AD734600336B53 /* LowBowlPadBeatMidVel4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = LowBowlPadBeatMidVel4.mp3; sourceTree = "<group>"; };
+		CC643B6524AD734600336B53 /* crystalWandOnSingingBowl.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = crystalWandOnSingingBowl.mp3; sourceTree = "<group>"; };
+		CC643B6624AD734600336B53 /* Prayer Bowls3_Shriek_2011.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Prayer Bowls3_Shriek_2011.mp3"; sourceTree = "<group>"; };
+		CC643B6724AD734600336B53 /* Prayer Bowls4_Shriek_2011.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Prayer Bowls4_Shriek_2011.mp3"; sourceTree = "<group>"; };
+		CC643B6E24AD738700336B53 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		CC643B7024AD73A800336B53 /* TimerSound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerSound.swift; sourceTree = "<group>"; };
+		CC643B7224AD73C900336B53 /* PlaySounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySounds.swift; sourceTree = "<group>"; };
+		CC643B7424AD747700336B53 /* BarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartView.swift; sourceTree = "<group>"; };
+		CC643B7624AD749100336B53 /* HistoryTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTabView.swift; sourceTree = "<group>"; };
+		CC643B7824AD74AE00336B53 /* TimerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerManager.swift; sourceTree = "<group>"; };
+		CC643B7A24AD74C500336B53 /* FormatTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatTimer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +82,18 @@
 			children = (
 				CC643B4D24AD71E900336B53 /* AppDelegate.swift */,
 				CC643B4F24AD71E900336B53 /* SceneDelegate.swift */,
-				CC643B5424AD71E900336B53 /* ContentView.swift */,
+				CC643B5424AD71E900336B53 /* MeditationTimerView.swift */,
+				CC643B7424AD747700336B53 /* BarChartView.swift */,
+				CC643B7624AD749100336B53 /* HistoryTabView.swift */,
+				CC643B7824AD74AE00336B53 /* TimerManager.swift */,
+				CC643B7A24AD74C500336B53 /* FormatTimer.swift */,
+				CC643B6524AD734600336B53 /* crystalWandOnSingingBowl.mp3 */,
+				CC643B6424AD734600336B53 /* LowBowlPadBeatMidVel4.mp3 */,
+				CC643B6624AD734600336B53 /* Prayer Bowls3_Shriek_2011.mp3 */,
+				CC643B6724AD734600336B53 /* Prayer Bowls4_Shriek_2011.mp3 */,
+				CC643B7024AD73A800336B53 /* TimerSound.swift */,
+				CC643B7224AD73C900336B53 /* PlaySounds.swift */,
+				CC643B6E24AD738700336B53 /* images */,
 				CC643B5624AD71EB00336B53 /* Assets.xcassets */,
 				CC643B5B24AD71EB00336B53 /* LaunchScreen.storyboard */,
 				CC643B5E24AD71EB00336B53 /* Info.plist */,
@@ -136,9 +169,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC643B6B24AD734600336B53 /* Prayer Bowls4_Shriek_2011.mp3 in Resources */,
+				CC643B6924AD734600336B53 /* crystalWandOnSingingBowl.mp3 in Resources */,
 				CC643B5D24AD71EB00336B53 /* LaunchScreen.storyboard in Resources */,
+				CC643B6A24AD734600336B53 /* Prayer Bowls3_Shriek_2011.mp3 in Resources */,
+				CC643B6F24AD738700336B53 /* images in Resources */,
 				CC643B5A24AD71EB00336B53 /* Preview Assets.xcassets in Resources */,
 				CC643B5724AD71EB00336B53 /* Assets.xcassets in Resources */,
+				CC643B6824AD734600336B53 /* LowBowlPadBeatMidVel4.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,8 +188,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC643B4E24AD71E900336B53 /* AppDelegate.swift in Sources */,
+				CC643B7324AD73C900336B53 /* PlaySounds.swift in Sources */,
+				CC643B7124AD73A800336B53 /* TimerSound.swift in Sources */,
+				CC643B7724AD749100336B53 /* HistoryTabView.swift in Sources */,
+				CC643B7B24AD74C500336B53 /* FormatTimer.swift in Sources */,
 				CC643B5324AD71E900336B53 /* MeditationTracker_2_0.xcdatamodeld in Sources */,
-				CC643B5524AD71E900336B53 /* ContentView.swift in Sources */,
+				CC643B7524AD747700336B53 /* BarChartView.swift in Sources */,
+				CC643B7924AD74AE00336B53 /* TimerManager.swift in Sources */,
+				CC643B5524AD71E900336B53 /* MeditationTimerView.swift in Sources */,
 				CC643B5024AD71E900336B53 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
