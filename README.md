@@ -9,6 +9,5 @@ Notable features:
 
 Still being constructed!
 
-<img src="Meditation%20Tracker/images/ss2.png" width="300" >
-
+<img src="MeditationTracker%202.0/images/ss2.png" width="300" >
 
